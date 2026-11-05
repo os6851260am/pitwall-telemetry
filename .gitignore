@@ -1,0 +1,42 @@
+# macOS 系统缓存
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 嵌入式 C/C++ 编译产物
+Debug/
+Release/
+build/
+bin/
+obj/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.d
+*.map
+*.su
+
+# STM32CubeIDE / Eclipse 临时工程配置 (保留 Core 与 Drivers)
+.metadata/
+.settings/
+*.launch
+*.history
+.cproject
+.project
+
+# Python (用于上位机与 HIL 脚本)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# 编辑器配置
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
